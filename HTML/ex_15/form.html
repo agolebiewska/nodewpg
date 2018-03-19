@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <title> Create User </title>
+    </head>
+    <hr>
+    <body>
+        <h1> Create User </h1> 
+        <hr>
+
+        <form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded"> 
+            <fieldset>
+            <legend>User Form</legend>
+            <label> Name:</label>
+            <input type="text" name="username" pattern="^[a-zA-Z]+$"placeholder="username" title="Use only letters" size="30" maxlength="12"  required/><br>
+            <br>
+            <label> Password:</label>
+            <input type="password" name="password" pattern="\+d" placeholder="password" title="Use only numbers" size="30" maxlength="8" required/><br>
+            <br>
+            <label>Enter your birthday</label>
+            <inpyt type="date" name="birthday" />
+            <input id="date" type="date" value="1990-12-12"><br>
+            <br>
+            <label>Email:</label>
+            <input type="email" size="30" placeholder="name@exampledomain.com" title="Please put your adres email" required/> <br>
+            <br>
+            <label>URL</label>
+            <input id="myURL" name="myURL" type="url" size="40" placeholder="http://www.exampledomain.com"><br>
+            <br>
+
+                    <div>
+                      <input type="search" id="mySearch" name="q" placeholder="https://www.google.ca/search" size="40">
+                      <button>Search</button>
+                    </div>
+            <br>
+            <input type="submit" value="Submit"><br>
+        </fieldset>
+        </form>
+    <!--  
+    <p></p>
+        <div>
+            <form> 
+                <label>Select your favourite superheroe:</label><br>
+                <input type="radio" name="superhero" value="Superman">Superman<br>
+                <input type="radio" name="superhero" value="Batman">Batman<br>
+                <input type="radio" name="superhero" value="Wonder Women">Wonder Woman<br>
+                <input type="radio" name="superhero" value="Flash">Flash <br>
+                <input type="radio" name="superhero" value="Thor &apm; Hulk">Thor &amp; Hulk<br>
+            </form> 
+        </div>      
+    
+        <p></p>
+            <form>
+                    <label>Select your favourite video game:</label><br>
+                    <input type="checkbox" name="video game" value="Fifa" checked >Fifa <br>
+                    <input type="checkbox" name="video game" value="NHL">NHL<br>
+                    <input type="checkbox" name="video game" value="Resident Evil">Resident Evil<br>
+                    <input type="checkbox" name="video game" value="Uncharted" checked>Uncharted<br>
+                    <input type="hidden" name="userid" value="2300">
+                    <input id="image" type="image" src="img/register_button.png" alt="Login" width="150" height="50"> 
+            </form>          
+        -->   
+    </body>
+</html>

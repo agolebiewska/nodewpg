@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <title> Create User </title>
+    </head>
+    <hr>
+    <body>
+        <h1> Create User </h1> 
+        <hr>
+
+        <form method="get" enctype="amultipart/form-data"> 
+            <label> Name:</label>   
+            <input type="text" name="name" placeholder="name"> 
+
+                <select name="options">
+                    <option value="deadpool">Deadpool</option>
+                    <option value="batman_vs_superman">Batman v Superman</option>
+                    <option value="civil_war">Captain America: Civil War</option>
+                    <option value="doctor_strange">Doctor Strange</option>
+                    <option value="suicide_squad">Suicide Squad</option>
+                    <option value="apocalypse">X-Men: Apocalypse</option>
+                    <option value="gotg_vol2">Guardians of the Galaxy Vol 2</option>
+                    <option value="justice_league">Justice League</option>
+                    <option value="logan">Logan</option>
+                    <option value="homecoming">Spider-Man: Homecoming</option>
+                    <option value="wonder_woman" selected="selected">Wonder Woman</option>
+                    <option value="thor_ragnarok">Thor: Ragnarok</option>
+                    <option value="black_panther">Black Panther</option>
+                </select><br>
+                <br>
+                <textarea name="textarea" rows="5" cols="58" placeholder="Write your bio here"></textarea><br>
+                <br>
+                <div>
+                    <label for="avatar">Choose your avatar to upload</label>
+                    <input type="file" id="avatar" name="avatar" accept=".jpg, .jpeg, .png">
+                </div><br>
+               
+                <div>
+                <input type="submit" value="Clear Form">
+                <input type="submit" value="Add New User">
+                </div>
+        </form>      
+      
+    </body>
+</html>

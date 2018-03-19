@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <title> Create User </title>
+    </head>
+    <hr>
+    <body>
+        <h1> Create User </h1> 
+        <hr>
+
+        <form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded"> 
+            <fieldset>
+            <legend>User Form</legend>
+            <label> Name:</label>
+            <input type="text" name="username" placeholder="username" size="30" maxlength="12"><br>
+            <br>
+            <label> Password:</label>
+            <input type="password" name="password" placeholder="password" size="30" maxlength="8"><br>
+            <br>
+            <label>Enter your birthday</label>
+            <inpyt type="date" name="birthday" />
+            <input id="date" type="date" value="1990-12-12"><br>
+            <br>
+            <label>Email:</label>
+            <input type="email" size="30" placeholder="name@exampledomain.com"> <br>
+            <br>
+
+            <label>URL</label>
+            <input id="myURL" name="myURL" type="url" size="40" placeholder="http://www.exampledomain.com"><br>
+            <br>
+
+                    <div>
+                      <input type="search" id="mySearch" name="q" placeholder="https://www.google.ca/search" size="40">
+                      <button>Search</button>
+                    </div>
+            <br>
+            
+            <div>
+            <input type="submit" value="Submit"><br>
+            </div>
+        </fieldset>
+        </form>
+                        
+    </body>
+</html>
