@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Learing CSS</title>
+  <style>
+    form {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      background-color: #eee;
+      color: #1abc9c;
+      border: 1px solid #ddd;
+      width: 540px;
+      margin: auto;
+      padding: 20px 40px;
+
+    }
+
+    h1 {
+      margin: 0;
+      margin-bottom: 40px;
+    }
+
+    fieldset{
+      border: none;
+      padding: none;
+      margin: 10px 0;
+    }
+
+    fieldest label {
+      display: inline-block;
+      width: 80px;
+      padding-right: 20px;
+    }
+
+    input[type="text"], input[type="password"], textarea {
+      display: inline-block;
+      width: 388px;
+      padding: 0.5em;
+      font-size: 16px;
+      color: gray;
+      outline-color: #1abc9c;
+      border: 1px solid #ddd;
+    }
+
+    textarea {
+      vertical-align: middle;
+    }
+
+  input[type="submit"] {
+      display: block;
+      padding: 19px 39px 18px 39px;
+      color: white;
+      background-color: #1abc9c;
+      font-size: 18px;
+      text-align: center;
+      width: 100%;
+      border: 1px solid #16a085;
+    }
+
+    fieldset:last-child {
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <h1>Create User</h1>
+    <fieldset>
+        <label>Username:</label>
+        <input type="text" name="username">
+    </fieldset>
+    <fieldset>
+        <label>Password:</label>
+        <input type="password" name="password">
+    </fieldset>
+    <fieldset>
+        <label>Email:</label>
+        <input type="text" name="email">
+    </fieldset>
+    <fieldset>
+        <label>Type:</label>
+        <input type="text" name="type">
+    </fieldset>
+    <fieldset>
+        <label>Notes:</label>
+        <textarea name="notes"></textarea>
+    </fieldset>
+    <fieldset>
+      <input type="submit" value="Create">
+    </fieldset>
+  </form>
+</body>
+</html>
